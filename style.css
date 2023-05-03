@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #e9c08b;
+    font-family: 'Comforta', cursive;
+}
+
+#app {
+    width: 50%;
+    min-width: 25rem;
+}
+
+h1 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3.2rem;
+    color: #0d6977;;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 200;
+    color: #810237;
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+ul {
+    
+    font-size: 1.5rem;
+    margin: 3.2rem;
+}
+
+ul li {
+    color: #810237;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+ul li a {
+    background-color: #0c7c0a;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+ul li a:hover {
+    opacity: 0.7;
+}
+
+input {
+    width: 50%;
+    height: 2.5rem;
+    color: #5c5c5c;
+    
+}
+
+input, button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+.btn_add {
+    width: 30%;
+    height: 2.5rem;
+    background-color: #f01695;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_add:hover {
+    opacity: 0.9;
+}
+
+
